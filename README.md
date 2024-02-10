@@ -109,7 +109,7 @@ void vexcodeInit(void);
 #include "robot-config.h"
 #include "methods.h"
 ```
-Let's make src/drive.cpp  
+### src/drive.cpp  
 ```C++
 #include "vex.h"
 
@@ -130,7 +130,7 @@ void drive(void)
     }
 }
 ```  
-Create src/auton.cpp  
+### src/auton.cpp  
 ```C++
 #include "vex.h"
 using namespace vex;
@@ -142,7 +142,7 @@ void auton(void)
     flyWheel.stop()
 }
 ```
-Create src/toggleSpin.cpp  
+### src/toggleSpin.cpp  
 ```C++  
 #include "vex.h"
 using namespace vex;
@@ -163,7 +163,7 @@ void toggleSpin(void)
     }
 }
 ```
-Lastly create include/methods.h  
+### include/methods.h  
 ```C++
 using namespace vex;
 // Just copy the headers of the methods you've created
